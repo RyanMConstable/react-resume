@@ -1,14 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Page from './Page.js'
 import './index.css';
-
-
-function Page(){
-  return (
-    <h1 className = "nameHeader">Ryan Constable</h1>
-  );
-}
-
 
 function GitHubLinkedIn(){
   return (
