@@ -3,18 +3,13 @@ import ReactDOM from 'react-dom/client';
 import Page from './Page.js'
 import GitLink from './GitLink.js'
 import Contact from './Contact.js'
+import EducationSection from './EducationSection.js'
 import './index.css';
+import InternshipExperience from './InternshipExperience.js';
 
 function Main(){
   return (
-    <>
-      <div display="inline">
-        <Page name="Ryan Constable"/>
-        <GitLink linked="LinkedIn" git="GitHub"/>
-        <br/>
-        <Contact contactName="RyanMConstable@gmail.com"/>
-      </div>
-    </>
+    <InternshipExperience/>
   )
 }
 
