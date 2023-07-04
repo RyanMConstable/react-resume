@@ -1,17 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Page from './Page.js'
+import GitLink from './GitLink.js'
 import './index.css';
-
-function GitHubLinkedIn(){
-  return (
-    <>
-      <a href="https://www.linkedin.com/in/ryan-constable-3b159a214/" rel="external">LinkedIn</a>
-      <br/>
-      <a href="https://github.com/RyanMConstable" rel="external">Github</a>
-    </>
-  )
-}
 
 function Contact(){
   return (
@@ -27,7 +18,7 @@ function Main(){
     <>
       <div display="inline">
         <Page/>
-        <GitHubLinkedIn/>
+        <GitLink/>
         <br/>
         <Contact/>
       </div>
