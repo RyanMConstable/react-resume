@@ -10,7 +10,7 @@ function Main(){
     <>
       <div display="inline">
         <Page name="Ryan Constable"/>
-        <GitLink/>
+        <GitLink linked="LinkedIn" git="GitHub"/>
         <br/>
         <Contact/>
       </div>
