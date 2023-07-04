@@ -9,7 +9,7 @@ function Main(){
   return (
     <>
       <div display="inline">
-        <Page/>
+        <Page name="Ryan Constable"/>
         <GitLink/>
         <br/>
         <Contact/>

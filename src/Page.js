@@ -1,8 +1,8 @@
 import './index.css';
 
-function Page(){
+function Page(props){
     return (
-      <h1 className = "nameHeader">Ryan Constable</h1>
+      <h1 className = "nameHeader">{props.name}</h1>
     );
 }
 
