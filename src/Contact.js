@@ -1,7 +1,7 @@
-function Contact(){
+function Contact(props){
     return (
       <>
-        <a href="https://RyanMConstable@gmail.com" rel="external">RyanMConstable@gmail.com</a>
+        <a href="https://RyanMConstable@gmail.com" rel="external">{props.contactName}</a>
       </>
     )
   }

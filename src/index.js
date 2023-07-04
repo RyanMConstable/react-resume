@@ -12,7 +12,7 @@ function Main(){
         <Page name="Ryan Constable"/>
         <GitLink linked="LinkedIn" git="GitHub"/>
         <br/>
-        <Contact/>
+        <Contact contactName="RyanMConstable@gmail.com"/>
       </div>
     </>
   )
