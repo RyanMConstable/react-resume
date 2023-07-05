@@ -1,10 +1,15 @@
-import './InternshipExperience.css';
+import './Internship.css';
 
 function Internship(props){
     return (
-        <div className="internship">
-            <h1>{props.companyName}</h1>
-            <h1>{props.title}</h1>
+        <div className="singleInternship">
+            <div className="internship">
+                <h1 className="leftTitle">{props.companyName}</h1>
+                <h1 className="rightTitle">{props.title}</h1>
+            </div>
+            <div className="details">
+                <p>{props.summary}</p>
+            </div>
         </div>
     );
 }
