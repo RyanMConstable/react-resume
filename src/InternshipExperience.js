@@ -1,7 +1,9 @@
 import Internship from './Internship.js'
 
 function InternshipExperience(props){
-    let panzuraSummary = "My summary is that I would like to see what happens when I go over and entire line because that would be interesting to see";
+    let panzuraSummary = "I started off as a Fullstack Developer Intern. After developing my skills in React, mySQL, Node.js, and Express I was moved to";
+    panzuraSummary += " a maintaining team where I wrote Python scripts to automate server cleanup."
+    
     let tokioSummary ="Another internship experience"
     return (
         <div>
