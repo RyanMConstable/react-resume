@@ -1,21 +1,25 @@
+*{
+  font-family:"Garamond";
+}
+
 .singleInternship {
-  background-color:yellow;
+  margin-top:10px;
   margin-left:30%;
   margin-right:30%;
-  padding-top:1rem;
-  display:flex;
+  padding:1rem;
+  display:inline-flex;
   flex-direction:column;
-  align-items:center;
+  align-items:left;
   text-align: left;
   position:relative;
   border:solid 1px black;
+  border-radius: 10px;
 }
 
 .internship {
-    background-color:green;
     position:relative;
-    font-family:"Garamond";
     border:solid 1px black;
+    border-radius: 5px;
   }
 
 .leftTitle {
@@ -30,5 +34,5 @@
 }
 
 .details {
-  background-color:red;
+  
 }
