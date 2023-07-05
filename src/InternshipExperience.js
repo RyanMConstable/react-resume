@@ -6,7 +6,7 @@ function InternshipExperience(props){
     return (
         <div>
             <Internship companyName = "Panzura" title = "Jr. Associate Software Developer" summary={panzuraSummary}/>
-            <Internship companyName ="Tokio Marine HCC" title = "Software Developer Intern" summary = {tokioSummary}/>
+            <Internship companyName ="Tokio Marine HCC" title = "Software Developer Intern" summary={tokioSummary}/>
         </div>
     );
 }
